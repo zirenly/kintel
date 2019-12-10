@@ -1,0 +1,249 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="css/jquery.orgchart.css">
+
+<head>
+  <title>H402 Executive Overview</title>
+
+</head>
+
+<body>
+
+  <div class="sidenav">  
+    <a href="#about" onclick="window.location.href = 'temphome.html'">Home</a>
+    <button class="dropdown-btn">Projects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#" onclick="window.location.href = 'b366temppage.html'">B366</a>
+      <a href="#" onclick="window.location.href = 'b373temppage.html'">B373</a>
+      <a href="#" onclick="window.location.href = 'h402temppage.html'">H402</a>
+    </div>
+    <a href="#" onclick="window.location.href='https://kintel.herokuapp.com/B366/'">Kintel Demo</a>
+  </div>
+
+  <div class="main">
+  <img src="assets/keppelcl.jpg" alt="Keppel Logo" height="100" width="300" >
+
+  <h2>H402 Executive Overview</h2>
+
+  <img src="assets/H402/jan-de-nul-group-squarelogo-1400605071349.png" height="100" width="100" alt="JDN_logo" align="left" style="margin-right: 30px"><br>
+  <a>6000 m3 Trailing Suction Hopper Dredger</a><br>
+  <a><i>Jan De Nul</i></a>
+  <br><br><br><br><br>
+
+
+  <a><strong>Progress</strong></a><br><br>
+
+  <div class="overlapcontainer">
+    <div class="overimg"><img src="assets/H402/H402_full_transparent__15.jpg" alt="h402_full_transparant" width="651" height="400" overflow="hidden"></div>
+    <div class="underimg"><img src="assets/H402/H402_full_opaque.jpg" alt="h402_full_opaque" width="651" height="400" overflow="hidden"><br></div>
+    <div class="bottomrighttext"><h3> Completion at 98.45%</h3></div>
+  </div><br><br><br><br><br>
+
+
+  <a><strong>Organization Chart</strong></a><br><br>
+
+
+  <div id="orgchart-container"></div><br><br>
+
+
+<!-- 
+
+  <br><br><br><a><strong>360 Status Snapshot</strong></a><br><br>
+  <img src="assets/H402/H402_GA1.jpg" alt="H402_GA1" usemap="#h402map1"><br><br>
+  <img src="assets/H402/H402_GA2.jpg" alt="H402_GA2" usemap="#h402map2"><br><br>
+  <img src="assets/H402/H402_GA3.jpg" alt="H402_GA3" usemap="#h402map3"><br><br>
+  <img src="assets/H402/H402_GA4.jpg" alt="H402_GA4" usemap="#h402map4"><br><br>
+  <img src="assets/H402/H402_GA5.jpg" alt="H402_GA5" usemap="#h402map5"><br><br><br> 
+
+  <map name="h402map1">
+    <area shape="rect" coords="296,224,339,182" alt="h402area10"  href="#10" onclick="document.getElementById('h402area10').style.display='block'">
+      <div id="h402area10" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area10').style.display='none'">&times;</span>
+          <p>Bridge</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/10bridge.html"></iframe>
+        </div>
+      </div>
+    </map>
+
+  <map name="h402map2">
+    <area shape="rect" coords="476,224,515,183" alt="h402area8"  href="#8" onclick="document.getElementById('h402area8').style.display='block'">
+      <div id="h402area8" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area8').style.display='none'">&times;</span>
+          <p>Forecastle Deck</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/8forecastledeck.html"></iframe>
+        </div>
+      </div>
+  </map>
+
+  <map name="h402map3">
+    <area shape="rect" coords="165,96,206,56" alt="h402area4"  href="#4" onclick="document.getElementById('h402area4').style.display='block'">
+      <div id="h402area4" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area4').style.display='none'">&times;</span>
+          <p>Hydraulic Room</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/4hydraulicroom.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="167,235,207,197" alt="h402area5"  href="#5" onclick="document.getElementById('h402area5').style.display='block'">
+      <div id="h402area5" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area5').style.display='none'">&times;</span>
+          <p>Switchboard Room</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/5switchboardroom.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="575,318,614,276" alt="h402area6s"  href="#6s" onclick="document.getElementById('h402area6s').style.display='block'">
+      <div id="h402area6s" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area6s').style.display='none'">&times;</span>
+          <p>Main Deck (Starboard)</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/6maindeckstarboard.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="575,71,614,32" alt="h402area6p"  href="#6p" onclick="document.getElementById('h402area6p').style.display='block'">
+      <div id="h402area6p" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area6p').style.display='none'">&times;</span>
+          <p>Main Deck (Port)</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/6maindeckport.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="1059,173,1098,132" alt="h402area9"  href="#9" onclick="document.getElementById('h402area9').style.display='block'">
+      <div id="h402area9" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area9').style.display='none'">&times;</span>
+          <p>Mess Room</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/9messroom.html"></iframe>
+        </div>
+      </div>
+  </map>
+
+  <map name="h402map4">
+    <area shape="rect" coords="93,186,134,144" alt="h402area3"  href="#3" onclick="document.getElementById('h402area3').style.display='block'">
+      <div id="h402area3" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area3').style.display='none'">&times;</span>
+          <p>Rudder Propeller Room</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/3rudderpropellerroom.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="159,61,201,18" alt="h402area1"  href="#1" onclick="document.getElementById('h402area1').style.display='block'">
+      <div id="h402area1" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area1').style.display='none'">&times;</span>
+          <p>Engine Room</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/1engineroom.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="299,224,340,183" alt="h402area2"  href="#2" onclick="document.getElementById('h402area2').style.display='block'">
+      <div id="h402area2" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area2').style.display='none'">&times;</span>
+          <p>Dredge Pump Room</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/2dredgepumproom.html"></iframe>
+        </div>
+      </div>
+    <area shape="rect" coords="1094,151,1136,106" alt="h402area7"  href="#2" onclick="document.getElementById('h402area7').style.display='block'">
+      <div id="h402area7" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('h402area7').style.display='none'">&times;</span>
+          <p>Forward Machinery Space</p>
+          <iframe height="80%" width="97%" allowfullscreen="true" src="assets/H402/7forwardmachineryspace.html"></iframe>
+        </div>
+      </div>
+  </map>
+
+  <a><i>Legend</i></a>
+  <ol>
+    <li>Engine Room</li>
+    <li>Dredge Pump Room</li>
+    <li>Rudder Propeller Room</li>
+    <li>Hydraulic Room</li>
+    <li>Switchboard Room</li>
+    <li>Main Deck (Port & Starboard)</li>
+    <li>Forward Machinery Room</li>
+    <li>Forecastle Deck</li>
+    <li>Mess Room</li>
+    <li>Bridge</li>
+  </ol><br><br>
+
+    <h2><i><mark>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AOC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</mark></i></h2>
+  <ol>
+    <li>Lt Cooling Pumps Modification (14-28 Dec 2019)</li><br>
+    <li>Hydraulic System (15-22 Dec 2019)</li><br>
+    <li>O/S TM X 5</li>
+      <ol type="i">
+        <li>AMCS</li>
+        <li>SCR</li>
+        <li>DPF</li>
+        <li>2 more OFE TMs - IMCS and GSM Booster</li>
+      </ol><br>
+    <li>TM submitted and pending for approval X 9</li><br>
+    <li>Engineering O/S work</li><br>
+    <li>Punch List - 392/1052</li><br>
+    <li>PCM O/S - 60/887</li><br>
+    <li>Others - Compartment and LQ Handover, loading of spares and painting</li>
+
+  </ol><br><br>
+ -->
+</body>
+</div>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery.orgchart.js"></script>
+
+
+<script>
+  (function($) {
+  $(function() {
+   var ds = {
+     'name': 'Anant Shukla',
+     'title': 'Senior Project Manager',
+     'children': [
+       { 'name': 'Celine', 'title': 'Project Secretary' },
+       { 'name': 'Yeoh Beng Keat', 'title': 'Senior Project Engineer'},
+       { 'name': 'Nur Hazirah Hassan', 'title': 'Senior Planning Engineer'},
+       { 'name': 'Rashida Yaacub', 'title': 'Commercial Coordinator'},
+       { 'name': 'Chung Yoon Kat', 'title': 'Logistic Coordinator'},
+       { 'name': 'Johan Bin MD Zain', 'title': 'Subcon Executive'},
+       { 'name': 'Saravanan', 'title': 'Senior QA Superintendent'},
+       { 'name': 'Siva Chilleya', 'title': 'Construction Mangaer', 'children':[ 
+          { 'name': 'Chester Liew', 'title': 'Project Superintendent'}]},
+       { 'name': 'Rodel Navala Alvarado', 'title': 'HSE Coordinator'}    
+    ]
+  };
+
+    var oc = $('#orgchart-container').orgchart({
+      'data' : ds,
+      'nodeContent': 'title'
+    });
+       
+
+  });
+})(jQuery);
+</script>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</html>
